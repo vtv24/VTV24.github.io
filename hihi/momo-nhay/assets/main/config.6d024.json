@@ -1,0 +1,136 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "main",
+    "deps": [
+        "resources"
+    ],
+    "uuids": [
+        "018f77b0-2354-4116-be67-65644cb7357b",
+        "0645755d5",
+        "0a20455a-4bc0-4ef2-a2db-cd5b13dad3b6",
+        "12c4a373-b07e-4934-b832-2933b0a00463@f9941",
+        "1936709fb@6c48a",
+        "1b55a52fe@6c48a",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "22ca1304-ea00-41a1-83b9-2de061bff91a@f9941",
+        "2b3b6d76-63ab-42cd-9b96-12f3380dd51f",
+        "2d2815fd-0a76-48d9-ba41-891e125a672a",
+        "32b5b884-39d6-4c8c-9f91-8b4f13414c88@f9941",
+        "354d4c65-839e-42b8-b4d8-800364b3b2bf",
+        "428dcc3e-3f38-4b8c-880a-f155ae67e42e",
+        "444ed9f9-c4fb-400b-83ba-bf5d2327f098",
+        "444ed9f9-c4fb-400b-83ba-bf5d2327f098@6c48a",
+        "444ed9f9-c4fb-400b-83ba-bf5d2327f098@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "55a56c28-6d0f-45da-96a7-eadc9bee7853",
+        "5eb00130-4d50-4bd3-b511-166e76460843",
+        "6774d3a9-36c9-46fe-a596-2547a1871e7f@f9941",
+        "7ac2b127-0cb3-430c-81e6-0bbeb06388dc",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "9d24e45e-7b45-4d47-af0a-beb75fba23ab",
+        "b507a4f4-a573-44bd-aad9-7f0f2d4c9d64",
+        "b52e10e2-8620-46b4-87c2-da7ae0d38671",
+        "b87f1474-aa84-455c-bd78-a49a667f9cb5",
+        "ca25a94a-9224-452c-860d-a86ac9e29a88",
+        "cd1f8df6-266b-4ff8-9702-16e9bb3c93a6",
+        "e2955b14-4ef0-41e7-92a2-a0178e3ea9cb@f9941",
+        "e5fd665b-dd20-4d4f-ac77-b9cc821e22ba@f9941",
+        "f38f2595-8e83-47ca-a70c-bf25e9899ac8",
+        "fd8ec536-a354-4a17-9c74-4f3883c378c8",
+        "fdfc2f22-7d1f-4cae-bc67-c32eb8fe297f@f9941"
+    ],
+    "paths": {
+        "fd8ec536-a354-4a17-9c74-4f3883c378c8": [
+            "db:/internal/default_renderpipeline/builtin-forward",
+            "cc.RenderPipeline"
+        ]
+    },
+    "scenes": {
+        "db://assets/scenes/main.scene": "cd1f8df6-266b-4ff8-9702-16e9bb3c93a6"
+    },
+    "packs": {
+        "0645755d5": [
+            "444ed9f9-c4fb-400b-83ba-bf5d2327f098@f9941",
+            "cd1f8df6-266b-4ff8-9702-16e9bb3c93a6"
+        ]
+    },
+    "versions": {
+        "import": [
+            "0645755d5",
+            "cc663",
+            "444ed9f9-c4fb-400b-83ba-bf5d2327f098",
+            "a2533",
+            "444ed9f9-c4fb-400b-83ba-bf5d2327f098@6c48a",
+            "702ed",
+            "fd8ec536-a354-4a17-9c74-4f3883c378c8",
+            "731f4"
+        ],
+        "native": [
+            "444ed9f9-c4fb-400b-83ba-bf5d2327f098",
+            "b0a76"
+        ]
+    },
+    "redirect": [
+        "018f77b0-2354-4116-be67-65644cb7357b",
+        "0",
+        "0a20455a-4bc0-4ef2-a2db-cd5b13dad3b6",
+        "0",
+        "12c4a373-b07e-4934-b832-2933b0a00463@f9941",
+        "0",
+        "1936709fb@6c48a",
+        "0",
+        "1b55a52fe@6c48a",
+        "0",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "0",
+        "22ca1304-ea00-41a1-83b9-2de061bff91a@f9941",
+        "0",
+        "2b3b6d76-63ab-42cd-9b96-12f3380dd51f",
+        "0",
+        "2d2815fd-0a76-48d9-ba41-891e125a672a",
+        "0",
+        "32b5b884-39d6-4c8c-9f91-8b4f13414c88@f9941",
+        "0",
+        "354d4c65-839e-42b8-b4d8-800364b3b2bf",
+        "0",
+        "428dcc3e-3f38-4b8c-880a-f155ae67e42e",
+        "0",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "0",
+        "55a56c28-6d0f-45da-96a7-eadc9bee7853",
+        "0",
+        "5eb00130-4d50-4bd3-b511-166e76460843",
+        "0",
+        "6774d3a9-36c9-46fe-a596-2547a1871e7f@f9941",
+        "0",
+        "7ac2b127-0cb3-430c-81e6-0bbeb06388dc",
+        "0",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "0",
+        "9d24e45e-7b45-4d47-af0a-beb75fba23ab",
+        "0",
+        "b507a4f4-a573-44bd-aad9-7f0f2d4c9d64",
+        "0",
+        "b52e10e2-8620-46b4-87c2-da7ae0d38671",
+        "0",
+        "b87f1474-aa84-455c-bd78-a49a667f9cb5",
+        "0",
+        "ca25a94a-9224-452c-860d-a86ac9e29a88",
+        "0",
+        "e2955b14-4ef0-41e7-92a2-a0178e3ea9cb@f9941",
+        "0",
+        "e5fd665b-dd20-4d4f-ac77-b9cc821e22ba@f9941",
+        "0",
+        "f38f2595-8e83-47ca-a70c-bf25e9899ac8",
+        "0",
+        "fdfc2f22-7d1f-4cae-bc67-c32eb8fe297f@f9941",
+        "0"
+    ],
+    "debug": true,
+    "extensionMap": {
+        ".cconb": [
+            "018f77b0-2354-4116-be67-65644cb7357b"
+        ]
+    }
+}

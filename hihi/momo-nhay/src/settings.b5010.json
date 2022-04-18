@@ -1,0 +1,103 @@
+{
+    "debug": true,
+    "CocosEngine": "3.4.2",
+    "designResolution": {
+        "width": 750,
+        "height": 1624,
+        "policy": 4
+    },
+    "platform": "web-mobile",
+    "exactFitScreen": true,
+    "bundleVers": {
+        "main": "6d024",
+        "remote": "60146",
+        "resources": "96510"
+    },
+    "subpackages": [],
+    "remoteBundles": [
+        "remote"
+    ],
+    "hasResourcesBundle": true,
+    "hasStartSceneBundle": false,
+    "launchScene": "db://assets/scenes/main.scene",
+    "jsList": [],
+    "moduleIds": [],
+    "renderPipeline": "",
+    "engineModules": [],
+    "server": "",
+    "customLayers": [
+        {
+            "name": "Ground",
+            "bit": 0
+        },
+        {
+            "name": "Player",
+            "bit": 1
+        },
+        {
+            "name": "Box",
+            "bit": 2
+        },
+        {
+            "name": "Item",
+            "bit": 3
+        }
+    ],
+    "splashScreen": {
+        "displayRatio": 0.4,
+        "totalTime": 0,
+        "effect": "",
+        "clearColor": {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "w": 1
+        },
+        "displayWatermark": false,
+        "base64src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACAQMAAABIeJ9nAAAAA1BMVEX///+nxBvIAAAACklEQVQI12MAAgAABAABINItbwAAAABJRU5ErkJggg=="
+    },
+    "customJointTextureLayouts": [],
+    "physics": {
+        "physicsEngine": "physics-cannon",
+        "gravity": {
+            "x": 0,
+            "y": -18.81,
+            "z": 0
+        },
+        "allowSleep": true,
+        "sleepThreshold": 0.1,
+        "autoSimulation": true,
+        "fixedTimeStep": 0.0166667,
+        "maxSubSteps": 1,
+        "defaultMaterial": {
+            "friction": 0.5,
+            "rollingFriction": 0.1,
+            "spinningFriction": 0.1,
+            "restitution": 0.1
+        },
+        "collisionGroups": [
+            {
+                "index": 1,
+                "name": "Player"
+            },
+            {
+                "index": 2,
+                "name": "Box"
+            },
+            {
+                "index": 3,
+                "name": "Ground"
+            }
+        ],
+        "collisionMatrix": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0
+        }
+    },
+    "scriptPackages": [
+        "./src/chunks/bundle.b36fb.js"
+    ],
+    "orientation": "portrait"
+}

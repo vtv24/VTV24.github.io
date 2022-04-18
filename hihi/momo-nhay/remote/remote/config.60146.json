@@ -1,0 +1,27 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "remote",
+    "deps": [],
+    "uuids": [
+        "d6d30831-119e-42d4-a00d-d4a7b702deb7"
+    ],
+    "paths": {
+        "d6d30831-119e-42d4-a00d-d4a7b702deb7": [
+            "test",
+            "cc.TextAsset"
+        ]
+    },
+    "scenes": {},
+    "packs": {},
+    "versions": {
+        "import": [
+            "d6d30831-119e-42d4-a00d-d4a7b702deb7",
+            "c67f3"
+        ],
+        "native": []
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {}
+}
