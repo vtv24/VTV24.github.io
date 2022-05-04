@@ -17,12 +17,10 @@
     <script>
         window.onmessage = (event) => {
             console.log("onmessage: ", event);
-            this.processMsg(event.data);
         };
 
         document.addEventListener("message", (event) => {
             console.log("on document message: ", event);
-            this.processMsg(event.data);
         });
     </script>
 </body>
