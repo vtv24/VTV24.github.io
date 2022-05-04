@@ -16,11 +16,11 @@
 
     <script>
         window.onmessage = (event) => {
-            console.log("onmessage: ", event);
+            console.log("onmessage: ", event.data);
         };
 
         document.addEventListener("message", (event) => {
-            console.log("on document message: ", event);
+            console.log("on document message: ", event.data);
         });
     </script>
 </body>
