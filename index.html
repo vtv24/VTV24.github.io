@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+    <script>
+        var vConsole = new window.VConsole();
+    </script>
+
+    <script>
+        window.onmessage = (event) => {
+            console.log("onmessage: ", event);
+            this.processMsg(event.data);
+        };
+
+        document.addEventListener("message", (event) => {
+            console.log("on document message: ", event);
+            this.processMsg(event.data);
+        });
+    </script>
+</body>
+
+</html>
